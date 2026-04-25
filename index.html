@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dilansa Thimandee— IT undergraduate of University of Moratuwa." />
+  <title>Dilansa— Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ══ NAVBAR ══ -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <a href="index.html" class="logo" aria-label="Home">Dilansa Thimandee</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" role="dialog" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main>
+    <!-- ══ HERO ══ -->
+    <section class="hero" aria-label="Introduction">
+      <div class="hero-bg"></div>
+
+      <div class="hero-grid">
+
+        <!-- Left: Text -->
+        <div class="hero-content">
+          <p class="hero-label">Explore in learning</p>
+          <h1>
+            Passionate<br>
+            <em>IT Student</em>
+          </h1>
+          <p class="hero-desc">
+            I am an IT undergraduate; passionate about web design and digital creativity.
+            I enjoy building simple, responsive websites and continuously improving my
+            skills in HTML, CSS, and JavaScript.
+          </p>
+          <div class="hero-btns">
+            <a href="contact.html" class="btn btn-primary">Contact Me →</a>
+            <a href="blog.html" class="btn btn-outline">View My Blog</a>
+          </div>
+        </div>
+        <!-- End Left -->
+
+        <!-- Right: Visual -->
+
+      <img src="me.PNG" alt="Profile photo" width="360px" height="400px">
+    
+      <div class="scroll-hint" aria-hidden="true">Scroll</div>
+    </section>
+
+    <!-- ══ ABOUT ══ -->
+    <section class="about" id="about" aria-label="About me">
+      <div class="container">
+        <p class="section-tag reveal">About Me</p>
+        <h2 class="section-title reveal">
+          Learning to build<br>
+          <span>creative digital experiences</span>
+        </h2>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Hi! I'm Dilansa - a first-year undergraduate of University of Moratuwa.
+              I'm currently learning IT & Management. My approach focuses on building a strong
+              foundation in both technical skills and creative design. I enjoy creating simple
+              and user-friendly digital experiences while improving my knowledge step by step.
+            </p>
+            <a href="contact.html" class="btn btn-outline" style="margin-top:1rem">Get In Touch →</a>
+          </div>
+
+          <div class="reveal reveal-delay-2">
+            <div class="about-details">
+              <div class="detail-item">
+                <div class="detail-label">Name</div>
+                <div class="detail-value">Dilansa Thimandee</div>
+              </div>
+              <div class="detail-item">
+                <div class="detail-label">Location</div>
+                <div class="detail-value">Colombo, LK</div>
+              </div>
+              <div class="detail-item">
+                <div class="detail-label">Email</div>
+                <div class="detail-value">dilansathimandee@gmail.com</div>
+              </div>
+              <div class="detail-item">
+                <div class="detail-label">Education</div>
+                <div class="detail-value">BSc.(Hon) Information Technology and Management</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ SKILLS ══ -->
+    <section class="skills" id="skills" aria-label="Skills">
+      <div class="container">
+
+        <div class="skills-intro">
+          <div>
+            <p class="section-tag">What I Do</p>
+            <h2 class="section-title">
+              My Skills &<br><span>Learning Areas</span>
+            </h2>
+          </div>
+          <p class="skills-desc">
+            I am currently building my skills in web design and multimedia technologies.
+            As a beginner, I focus on developing a strong foundation in both technical
+            and creative areas.
+          </p>
+        </div>
+
+        <!-- Skill Cards -->
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <div class="skill-icon">💻</div>
+            <div class="skill-name">Web Development</div>
+            <p>Creating basic and responsive web pages.</p>
+            <div class="skill-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript (Basic)</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">🎨</div>
+            <div class="skill-name">Multimedia Design</div>
+            <p>Understanding visual design principles.</p>
+            <div class="skill-tags">
+              <span class="tag">Colour Theory</span>
+              <span class="tag">UI Basics</span>
+              <span class="tag">Creativity</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">📚</div>
+            <div class="skill-name">Project Management Skills</div>
+            <p>Continuously improving my technical knowledge.</p>
+            <div class="skill-tags">
+              <span class="tag">Problem Solving</span>
+              <span class="tag">Teamwork</span>
+              <span class="tag">Leadership</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══ FOOTER ══ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-logo">Dilansa<span style="color:var(--text)">.</span></div>
+    <p class="footer-copy">© 2026 Dilansa Thimandee. Crafted with care.</p>
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
